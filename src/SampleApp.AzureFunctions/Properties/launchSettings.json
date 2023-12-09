@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "SampleApp.AzureFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7185"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32697,
+      "useSSL": false
+    }
+  }
+}
